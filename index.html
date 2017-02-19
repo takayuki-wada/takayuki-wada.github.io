@@ -1,18 +1,97 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 詳細説明 -->
+		<meta name="discription" content="TAKAYUKI WADA:hogehoge">
+		<!-- 表示領域の設定 -->
+		<meta name="viewport" content="widht=device-width,initial-scale=1.0,minimum-scale=1.0">
+		<title>with Confidence</title>
+		<!-- BootstrapのCSS読み込み -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!-- jQuery読み込み -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- BootstrapのJS読み込み -->
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<!-- CSSの外部ファイル読込み -->
+		<link rel="stylesheet" href="css/common.css">
+	</head>
+	<body oncontextmenu="return false;">
+		<header class="head">
+			<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="main_container">
+			<article id="home">
+				<div class="container-fluid">
+					<div class="head-memory"><h2> with Confidence。 </h2></div>
+					<div class="head-logo"><a href="/" title="return home">
+						<image src = "/img/turibashi.jpg" class="img-turibashi img-thumbnail" alt="MAIN=LOGO"
+									 width="700"></image></a>
+					</div>
+				</div>
+			</article>
+			<article id="home-description">
+				<div class="container">
+					<h3> 自信に繋がる武器で人生を楽しむまで。 </h3>
+					<section class="basic-concept">
+						<p class="text-description">
+						フリーランスのウェブプログラマを目指し、日々格闘する毎日です。(なまけ虫の退治に苦戦・・・)<br>
+						東京を離れ地方での生活が早5年が過ぎ、これからの数十年先を見据えて新しい技術を習得しております。<br>
+						いろんな方にサポートされ、一歩ずつ前に進み華を咲かせます。
+						</p>
+					</section>
+				</div>
+			</article>
+			<hr>
+			<div class="container">
+				<div class="row">
+					<article id="about">
+						<div class="icon col-sm-2">
+							<section  class="basic-concept-icon-about">
+								<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+								<div class="icon-caption">About<br>
+									<a href="https://github.com/takayuki-wada/" target="_blank" title="Githubへのリンク">*Github*</a>
+								</div>
+							</section>
+						</div>
+						<div class="history col-sm-5">
+							<section class="basicdata">
+								<dl>- Profile -
+									<dt>名 前</dt><dd>和田 貴之(takayuki wada)</dd>
+									<dt>生 年 月 日</dt><dd>1974年生まれ</dd>
+									<dt>血 液 型</dt><dd>AB型</dd>
+									<dt>印象に残っている場所</dt><dd>アウラニ・ディズニー(英語はしゃべれない)</dd>
+								</dl>
+							</section>
+						</div>
+						<div class="skill col-sm-5">
+							<section class="lang-app">
+								<dl>- Language & Application -
+									<dt>HTML5 / CSS / Bootstrap</dt><dd>★★★☆☆</dd>
+									<dt>Bootstrap</dt><dd>★★★☆☆</dd>
+									<dt>Ruby on Rails</dt><dd>★★☆☆☆</dd>
+									<dt>Javascript / JSON</dt><dd>★☆☆☆☆</dd>
+									<dt>VB</dt><dd>★★★★☆</dd>
+									<dt>Photoshop</dt><dd>★☆☆☆☆</dd>
+								</dl>
+							</section>
+						</div>
+					</article>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<p><small>COPYRIGHT &COPY; TAKAYUKI WADA ALL RIGHTS RESERVED.</small></p>
+		</footer>
+	</body>
 </html>

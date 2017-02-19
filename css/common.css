@@ -1,0 +1,110 @@
+/* head */
+nav li , nav a {
+	display: block;
+}
+nav li {
+	float: left;
+	border-right: 1px solid #8d6c6c;
+	background: #faeafc;
+}
+nav a {
+	padding: 15px 55px;
+	color: #000000;
+}
+nav a:hover {
+	text-decoration: underline;
+	color: #f7270c;
+}
+
+nav ul {
+	overflow: hidden;
+	margin: 0  0 10px 0;
+	padding: 0;
+	border: 1px solid #be5555;
+	line-height: 1.0;
+}
+
+.head a {
+	text-decoration: none;
+}
+
+/* body container */
+h2, h3, h4 {
+	text-align: center;
+}
+
+.img-turibashi {
+	display: block;
+	margin: 0 auto;
+}
+
+.basic-concept  {
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+.text-description {
+	display: inline-block;
+	text-align: left;
+}
+
+.basic-concept-icon-about {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.icon {
+	text-align: center;
+}
+.icon .glyphicon {
+	margin-bottom: 10px;
+	font-size: 45px;
+	color: #8d6c6c;
+}
+
+dl {
+	width: 300px;
+}
+dt{
+	padding: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 1px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+}
+dd{
+	font-size: 92%;
+	line-height:1.5;
+	margin-bottom: 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	padding-left: 10px;
+}
+
+.icon-caption  > a {
+	text-decoration: none;
+	color:#000000;
+	font-size: 90%;
+}
+.icon-caption > a:hover {
+	text-decoration: underline;
+	color: #0af80a;
+}
+
+hr {
+	width:95%;
+	height: 1px;
+	border-top: 1px #000000 dotted;
+}
+
+/* body footer */
+footer {
+	bottom: 0;
+	width:  100%;
+	text-align: center;
+}
