@@ -5,7 +5,7 @@ nav li , nav a {
 nav li {
 	float: left;
 	border-right: 1px solid #8d6c6c;
-	background: #faeafc;
+	background: #e0d1dd;
 }
 nav a {
 	padding: 15px 55px;
@@ -20,13 +20,14 @@ nav ul {
 	overflow: hidden;
 	margin: 0  0 10px 0;
 	padding: 0;
-	border: 1px solid #be5555;
+	border: 1px solid #4349e2;
 	line-height: 1.0;
 }
 
 .head a {
 	text-decoration: none;
 }
+
 
 /* body container */
 h2, h3, h4 {
