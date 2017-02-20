@@ -3,12 +3,12 @@ nav li , nav a {
 	display: block;
 }
 nav li {
-	float: left;
+	float:left;
 	border-right: 1px solid #8d6c6c;
 	background: #e0d1dd;
 }
 nav a {
-	padding: 15px 55px;
+	padding: 15px 50px;
 	color: #000000;
 }
 nav a:hover {
@@ -24,12 +24,19 @@ nav ul {
 	line-height: 1.0;
 }
 
+.navi-menu {
+	position:fixed;
+}
+
 .navi-menu a {
 	text-decoration: none;
 }
 
-
 /* body container */
+.head-memory {
+	padding-top: 50px;
+}
+
 h2, h3, h4 {
 	text-align: center;
 }
