@@ -24,7 +24,7 @@ nav ul {
 	line-height: 1.0;
 }
 
-.head a {
+.navi-menu a {
 	text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ dl {
 	width: 300px;
 }
 dt{
-	padding: 2px;
+	padding: 5px;
 	font-size: 14px;
 	font-weight: bold;
 	margin-top: 5px;
